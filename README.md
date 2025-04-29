@@ -14,6 +14,9 @@ npx -C $DIR wrangler pages deploy
 # npx -C $DIR wrangler pages deploy --project-name=my-proxy --branch=main --commit-dirty=true --commit-message="Manual deploy from $DIR"
 
 ```
+# public directory cannot be empty, or cloudflare will fail to deloy
+
+
 
 # use d1
 [making-static-sites-dynamic-with-cloudflare-d1](https://blog.cloudflare.com/making-static-sites-dynamic-with-cloudflare-d1/)
